@@ -1,8 +1,30 @@
 
 
+
+#answer1{
+  display: none;
+}
+#answer2{
+  display: none;
+}
+#answer3{
+  display: none;
+}
+#answer4{
+  display: none;
+}
+
+#panel1{
+  background-image: url(../img/back.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
 body {
-  background-color: black;
-  color: blue;
+  background-color: white;
+  color: #111110;
 }
 
 .btn {
@@ -15,4 +37,3 @@ body {
 
 .panel-body {
   height: 500px;
-  background: #F8B195;
