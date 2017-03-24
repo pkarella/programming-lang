@@ -1,12 +1,13 @@
 
 
-/*body{
-  background-image: url(../img/back.jpg);
+body{
+  background-image: url(../img/back2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-}*/
+  color: white;
+}
 #java{
   display: none;
 }
@@ -21,14 +22,23 @@
   margin: 10px;
 }
 
+h1{
+  text-align: center;
+}
 
 
-
+#panel3{
+  background-image: url(../img/back4.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 
 .panel-body {
   height: 500px;
   padding: 10px;
-  background-color: #ffffcc;
+  /*background-color: #ffffcc;*/
 }
 
 h2{

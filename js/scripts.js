@@ -4,9 +4,10 @@ $(document).ready(
     $("#info-form").submit(function(event) {
       event.preventDefault();
       var sizes = $("input:radio[name=size]:checked").val();
-      var checks = $("#check1").val();
-
-      if (sizes === "yes" && checks === "hell" || checks === "heaven" || checks === "could"){
+      var checksa = $("#check1").val();
+      var checksb = $("#check2").val();
+      var checksc = $("#check3").val();
+      if (sizes === "websites" && checksa === "Challenge" && checksb || checksa === "Easier" || checksa === "Eitherway"){
         $("#java").show();
       };
       if (sizes === "no" && checks === "hell" || checks === "heaven") {
@@ -19,15 +20,4 @@ $(document).ready(
 
     });
 
-
-  // var dob = $("#born").val();
-//
-// };
-//
-//  {
-//   $("h2").text("Brad Pitt");
-// };
-//
-// if (size === "nopets") {
-//   $("h2").text("Donald Trump");
-// };
+  
