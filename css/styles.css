@@ -1,20 +1,6 @@
 
 
-
-#answer1{
-  display: none;
-}
-#answer2{
-  display: none;
-}
-#answer3{
-  display: none;
-}
-#answer4{
-  display: none;
-}
-
-#panel1{
+body{
   background-image: url(../img/back.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,18 +8,16 @@
   background-size: cover;
 }
 
-body {
-  background-color: white;
-  color: #111110;
-}
-
 .btn {
   margin: 10px;
 }
 
-.col-md-6 {
-  padding: 15px;
-}
+
+
+
 
 .panel-body {
   height: 500px;
+  padding: 10px;
+  background-color: #ffffcc;
+}
