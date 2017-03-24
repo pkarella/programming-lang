@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Programming Language Website </title>
+
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row" >
+      <div class="col-md-6">
+        <div class="panel panel default">
+          <div class="panel-body">
+            <h1>So You're Interested In Becoming a Programmer</h1>
+            <p>Answer these questions below and we can determine what type of Programming language you should choose.</p>
+            <form id="info-form">
+              <div class="form-group">
+                <label for="time">How Many Years Have you been programming</label>
+                <input id="time" class="form-control" type="text">
+              </div>
+              <h3> Do you like creating web applications with more user interaction?</h3>
+              <select class="form-control" id="interaction">
+                <option>More:the more interaction the better!</option>
+                <option>Less: I like to stay on the backend.</option>
+              </select>
+              <h3> Do you want your language suited for large projects?</h3>
+              <select class="form-control" id="size">
+                <option>yes:Size matters.</option>
+                <option>No:it doesn't really matter</option>
+              </select>
+              <h3>Do you enjoy the challenge of more complicated languages?</h3>
+              <select class="form-control" id="challenge">
+                <option>Harder the better</option>
+                <option>Easier the better</option>
+              </select>
+
+            <button type="submit" class="btn">Submit!</button>
+          </form>
+      </div>
+    </div>
+    </div>
+      <div class="col-md-6">
+        <div class="panel panel default">
+          <div class="panel-body">
+            <div id="answer">
+              this is the answer
+
+            </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

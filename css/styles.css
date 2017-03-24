@@ -1,0 +1,18 @@
+
+
+body {
+  background-color: black;
+  color: blue;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.col-md-6 {
+  padding: 15px;
+}
+
+.panel-body {
+  height: 500px;
+  background: #F8B195;
