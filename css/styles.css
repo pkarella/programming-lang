@@ -10,6 +10,7 @@ body{
 }
 #java{
   display: none;
+  color: black;ß
 }
 #php{
   display: none;
@@ -24,15 +25,6 @@ body{
 
 h1{
   text-align: center;
-}
-
-
-#panel3{
-  background-image: url(../img/back4.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
 }
 
 .panel-body {

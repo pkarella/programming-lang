@@ -7,17 +7,14 @@ $(document).ready(
       var checksa = $("#check1").val();
       var checksb = $("#check2").val();
       var checksc = $("#check3").val();
-      if (sizes === "websites" && checksa === "Challenge" && checksb || checksa === "Easier" || checksa === "Eitherway"){
-        $("#java").show();
+      if (sizes === "websites" && checksa === "Challenge" && checksb === "Very Important" &&  checksc === "I love security"|| checksb === "Somewhat" && checksc === "Eh.."){
+        $("#php").toggle();
       };
-      if (sizes === "no" && checks === "hell" || checks === "heaven") {
-        $("#php").show();
-      };
-      if (sizes === "maybe" && checks === "could"){
-        $("#ruby").show();
-      };
-     });
-
     });
-
-  
+  });
+    // if (sizes === "no" && checks === "hell" || checks === "heaven") {
+    //   $("#php").show();
+    // };
+    // if (sizes === "maybe" && checks === "could"){
+    //   $("#ruby").show();
+    // };
