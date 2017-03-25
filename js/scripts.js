@@ -10,11 +10,11 @@ $(document).ready(
       if (sizes === "websites" && checksa === "Challenge" && checksb === "Very Important" &&  checksc === "I love security"|| checksb === "Somewhat" && checksc === "Eh.."){
         $("#php").toggle();
       };
-    });
+      if (sizes === "Larger Platforms" && checksa === "Challenge" && checksb === "Very Important" &&  checksc === "I love security"){
+        $("#java").toggle();
+      };
+      if (sizes === "I'm open" && checksa === "Challenge" && checksb === "Very Important" &&  checksc === "I love security"){
+        $("#ruby").toggle();
+      };
   });
-    // if (sizes === "no" && checks === "hell" || checks === "heaven") {
-    //   $("#php").show();
-    // };
-    // if (sizes === "maybe" && checks === "could"){
-    //   $("#ruby").show();
-    // };
+});

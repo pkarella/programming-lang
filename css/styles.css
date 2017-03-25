@@ -10,13 +10,15 @@ body{
 }
 #java{
   display: none;
-  color: black;ß
+  color: black;
 }
 #php{
   display: none;
+  color: black;
 }
 #ruby{
   display: none;
+  color: black;
 }
 
 .btn {
@@ -35,4 +37,13 @@ h1{
 
 h2{
   font-size: 100px;
+}
+p{
+  color: black;
+}
+h4{
+  color: black;
+}
+.radio{
+  color: black;
 }
